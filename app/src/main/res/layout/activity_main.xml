@@ -19,6 +19,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/menu_bottom_nav"/>
+        app:menu="@menu/menu_bottom_nav"
+        android:background="@drawable/bg_bottom_nav"
+        android:elevation="8dp"
+        app:itemIconSize="16dp"
+        app:itemTextAppearanceActive="@style/ActiveTextStyle"
+        app:itemTextAppearanceInactive="@style/InactiveTextStyle"
+        app:itemTextColor="@color/nav_itemcolor"
+        app:itemIconTint="@color/nav_itemcolor"
+        app:labelVisibilityMode="selected"/>
 
 </RelativeLayout>
