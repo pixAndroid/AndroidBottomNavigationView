@@ -22,11 +22,14 @@
         app:menu="@menu/menu_bottom_nav"
         android:background="@drawable/bg_bottom_nav"
         android:elevation="8dp"
-        app:itemIconSize="16dp"
+        app:itemIconSize="22dp"
         app:itemTextAppearanceActive="@style/ActiveTextStyle"
         app:itemTextAppearanceInactive="@style/InactiveTextStyle"
         app:itemTextColor="@color/nav_itemcolor"
         app:itemIconTint="@color/nav_itemcolor"
-        app:labelVisibilityMode="selected"/>
+        style="@style/Widget.MaterialComponents.BottomNavigationView.PrimarySurface"
+        app:itemPaddingTop="12dp"
+        app:itemPaddingBottom="8dp"
+        app:labelVisibilityMode="auto"/>
 
 </RelativeLayout>
